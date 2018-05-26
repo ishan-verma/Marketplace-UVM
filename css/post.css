@@ -1,0 +1,67 @@
+.itemWrap {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    margin-top: 200px !important;
+    margin: auto;
+}
+.topItemWrap {
+    padding-top: 40px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topItemWrap > div {
+    height: 100%;
+}
+.topItemWrap > div:nth-child(1) img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.topItemWrap > div:nth-child(1) {
+    width: 40%;
+}
+.topItemWrap > div:nth-child(2) {
+    width: 60%;
+    padding-left: 60px;
+}
+.addPadding {
+    margin-bottom: 40px;
+}
+.topItemWrap > div:nth-child(2) h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.difButton {
+  border: 2px inset black;
+  font-size: 1.2em;
+  line-height: 1.8;
+  padding: 10px 40px 10px 40px;
+  color: black !important;
+  transition:all 0.8s;
+  box-sizing: border-box;
+}
+.difButton:hover {
+  box-shadow: 300px 0 0 0  rgba(98,0,0,1) inset, -300px 0 0 0  rgba(98,0,0,1) inset;
+  color: white !important;
+}
+
+.genInfoP {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+div.topItemWrap > div > form{
+    width: 50%;
+}
+div.topItemWrap > div > form >textarea{
+    width: 100%;
+    height: 50px;
+}

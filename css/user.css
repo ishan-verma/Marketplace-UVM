@@ -1,0 +1,36 @@
+div.userBody {
+    width:70%;
+    margin:auto;
+    background-color: lightblue;
+    height:300px;
+    text-align: center;
+    border-top: black;
+}
+
+div.userHeader div.profPic > img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 44.5%;
+    margin-top: 150px;
+}
+
+div.userHeader div.name p{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+div.userHeader{
+    width:70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 5px solid black;
+}
+
+div.userBody h1{
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+.listingWrap {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.listingWrap > div {
+    position: relative;
+}
+.searchBarWrap {
+    background-color: black;
+    height: 200px;
+}
+.itemsListWrap {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.listingItemContainer {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 15px;
+}
+.listingItemContainer a {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.listingItemContainer a > img {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.listingItemContainer a > img:hover {
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+filter: brightness(50%);
+}
+.listingItemContainer h3 {
+    z-index: 9999;
+    
+}
+.searchListingsPage {
+    /*background-color: blue;*/
+}
+
+
+

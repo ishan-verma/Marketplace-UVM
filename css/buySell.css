@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    cursor: pointer;
+}
+.buySellPageWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+        margin: 40px 20px 0 20px;
+}
+.buySellPageWrap > a {
+    width: 24%;
+    height: 200px;
+    text-decoration: none !important;
+}
+.buySellPageWrap > a:nth-child(1) {
+    /*background-color: black;*/
+}
+.buySellPageWrap > a > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+     color: white !important;
+}
+.buySellPageWrap > a {
+    transition: all ease-in-out 10s;
+}
+.buySellPageWrap > a:nth-child(1):hover {
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(../images/electronics.jpg);
+}
+.buySellPageWrap > a:nth-child(2):hover {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url(../images/clothing.jpg);
+}
+.buySellPageWrap > a:nth-child(3):hover {
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(../images/sports.jpg);
+}
+.buySellPageWrap > a:nth-child(4):hover {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url(../images/couch.jpg);
+}
+
+
+.buySellPageWrap .electronicWrap {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/electronics.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.buySellPageWrap .clothing {
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/clothing.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.buySellPageWrap .sportsEquipment {
+        background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/sports.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.buySellPageWrap .Furnature {
+            background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/couch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.buySellTitle {
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+
